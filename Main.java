@@ -5,15 +5,11 @@ class Main {
         Shape triangle = new Triangle();
         Shape rhombus = new Rhombus();
         Shape ellipse = new Ellipse();
-        shapeVoid(circle);
-        shapeVoid(triangle);
-        shapeVoid(quad);
-        shapeVoid(rhombus);
-        shapeVoid(ellipse);
-    }
-    public static void shapeVoid(Shape shape) {
-        System.out.println("Shape is " + shape.printName());
-        System.out.println("Angles count is " + shape.countAngles());
+        ShapeVoid.shapeVoid(circle);
+        ShapeVoid.shapeVoid(triangle);
+        ShapeVoid.shapeVoid(quad);
+        ShapeVoid.shapeVoid(rhombus);
+        ShapeVoid.shapeVoid(ellipse);
     }
 
 }
